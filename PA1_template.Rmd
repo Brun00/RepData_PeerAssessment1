@@ -32,7 +32,7 @@ hist(data_sums$steps, breaks = 20, xlab = "steps per day", ylab = "frequency", m
 
 Make a summary of steps taken per day, that includes median and mean.
 ```{r}
-summary(data_sums$steps)
+summary(data_sums$steps, digits = 5)
 ```
 
 ####What is the average daily activity pattern?  
